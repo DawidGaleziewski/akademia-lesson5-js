@@ -5,3 +5,9 @@ funkcja moze modyfikowac zmienne globalne ale nie powinna! powinna zwracac warto
 Dobrze jest nprzypisywać wartość do zmiennej, np let number = 0, let string = '' etc;
 
 Obiekt jest instancją klasy, np złota moneta jest instancją klasy moneta
+
+
+Najlepiej opisany object Math:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+
+iloczyn logiczny (&&), suma logiczny (||), Negacja (!)
