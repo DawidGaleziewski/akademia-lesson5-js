@@ -4,6 +4,8 @@ funkcja moze modyfikowac zmienne globalne ale nie powinna! powinna zwracac warto
 
 Dobrze jest nprzypisywać wartość do zmiennej, np let number = 0, let string = '' etc;
 
+
+Klassy!
 Obiekt jest instancją klasy, np złota moneta jest instancją klasy moneta
 
 
@@ -13,3 +15,34 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 iloczyn logiczny (&&), suma logiczny (||), Negacja (!)
 
 switch
+
+
+12 petle ! - pocwiczyc
+
+json!
+
+let is better cuse of hoisting
+
+callback function - wykonuja sie przy zdarzeniu
+
+DOM - perentElement i parentNode
+
+.childNodes - wszystkie elementu które istnieją tam np text albo enter
+.children - dzieci elementu
+
+- !! nie nazywać zmiennych tak jak parametry!!
+function(x,y,z){
+	let numerX
+	let numerY
+	let numerZ
+}
+
+#css centering guide
+https://css-tricks.com/centering-css-complete-guide/
+
+Mouse-over nie działa na mobile!
+
+
+!Nie da się usunąć eventów który dodane były za pomocą funkcji anonimowej
+
+W przypadku kilku even listenerów ustawionych np jeden na parent drugi na child - najpierw wywoła się bardziej zagnieżdzony element czyli np grandchild -> child -> parent
